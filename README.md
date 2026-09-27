@@ -193,8 +193,8 @@ bus-booking-system/
 
 ## 1️⃣ Clone Repo
 ```bash
-git clone https://github.com/TheComputationalCore/bus-booking-system.git
-cd bus-booking-system
+git clone https://github.com/harsha3v777/Bus-booking-system.git
+cd Bus-booking-system
 ```
 
 ---
@@ -295,9 +295,8 @@ Runs at: **http://localhost:3000**
 
 # 👤 Author
 
-**Dinesh Chandra — TheComputationalCore**  
-GitHub: https://github.com/TheComputationalCore  
-YouTube: https://www.youtube.com/@TheComputationalCore  
+**Harsha Vardhan Reddy Vennapusa**  
+GitHub: https://github.com/harsha3v777 
 
 ---
 
