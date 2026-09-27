@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Bus Ticketing Platform Banner">
+</p>
+
 # 🚌 **Bus Booking System**
 ### **Full-Stack Bus Ticketing Platform (React + Spring Boot + PostgreSQL)**
 
@@ -10,16 +14,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 </p>
 
-A polished, production-grade bus reservation platform built using **React**, **Spring Boot**, and **PostgreSQL**, deployed on **Render** with modern engineering principles, modular backend architecture, and a clean scalable user interface.
-
----
-
-# 🌐 **Live Demo**
-
-### 🚀 Frontend (React) — Render Deployment  
-👉 **https://bus-booking-system-frontend.onrender.com**
-
-> ⚠ Backend + PostgreSQL remain private for security, rate limiting, and user protection.
+A bus reservation platform built using **React**, **Spring Boot**, and **PostgreSQL** and modern engineering principles, modular backend architecture, and a clean scalable user interface.
 
 ---
 
@@ -32,7 +27,7 @@ The **Bus Booking System** provides a complete end-to-end ticket reservation exp
 - 🎫 Real-time seat availability tracking  
 - 👥 Multi-passenger booking  
 - 🧾 Booking history with seat details  
-- 📡 Fully deployed with CI-friendly architecture  
+- 📡 Fully deployable with CI-friendly architecture  
 
 Built for **scalability**, **modularity**, and **enterprise-readiness**.
 
@@ -74,9 +69,6 @@ Built for **scalability**, **modularity**, and **enterprise-readiness**.
 - PostgreSQL 15 (Managed on Render)
 
 ### **DevOps**
-- Render Web Service  
-- Render Static Site  
-- Render Managed PostgreSQL  
 - Dockerfile  
 
 ---
@@ -84,22 +76,22 @@ Built for **scalability**, **modularity**, and **enterprise-readiness**.
 # 🏗 **System Architecture**
 
 ```
-                          ┌────────────────────────────┐
+                          ┌────────────────────────────-┐
                           │       React Frontend        │
                           │  User Interface + Routing   │
                           └──────────────┬──────────────┘
                                          │ HTTPS (Axios)
                                          ▼
                           ┌────────────────────────────┐
-                          │     Spring Boot Backend     │
-                          │  API, Auth, Booking Logic   │
-                          └──────────────┬──────────────┘
+                          │     Spring Boot Backend    │
+                          │  API, Auth, Booking Logic  │
+                          └──────────────┬─────────────┘
                                          │ JPA Queries
                                          ▼
                           ┌────────────────────────────┐
-                          │     PostgreSQL Database     │
-                          │ Managed on Render Cloud     │
-                          └──────────────────────────────┘
+                          │     PostgreSQL Database    │
+                          │                            │
+                          └────────────────────────────┘
 ```
 
 ---
@@ -178,7 +170,7 @@ bus-booking-system/
 ---
 
 ## <details>
-<summary><strong>🗄 Database Screenshots (PostgreSQL)</strong></summary>
+<summary><strong>🗄 Database Screenshots </strong></summary>
 
 ![](screenshots/database%201.png)
 ![](screenshots/database%202.png)
@@ -268,21 +260,6 @@ Runs at: **http://localhost:3000**
 
 ---
 
-# 🚀 Deployment (Render)
-
-### Frontend  
-- Static Site  
-- Build: `npm run build`  
-- Publish: `build/`
-
-### Backend  
-- Web Service using `Dockerfile`
-
-### Database  
-- Render Managed PostgreSQL
-
----
-
 # 🛣 Roadmap
 
 - Admin Panel  
@@ -296,7 +273,7 @@ Runs at: **http://localhost:3000**
 # 👤 Author
 
 **Harsha Vardhan Reddy Vennapusa**  
-GitHub: https://github.com/harsha3v777 
+GitHub: https://github.com/harsha3v777  
 
 ---
 
